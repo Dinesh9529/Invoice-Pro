@@ -1,0 +1,21 @@
+app-style.css
+
+:root {
+  --primary: #0d6efd;
+  --bg: #f4f7fc;
+  --card: #ffffff;
+  --muted: #6c757d;
+}
+body { background: var(--bg); font-family: Poppins, Arial, sans-serif; color:#222; }
+header { box-shadow: 0 4px 14px rgba(13,110,253,0.08); }
+.invoice-box { background: #fff; border-radius: 10px; border: 1px solid #e6e9ef; box-shadow: 0 6px 18px rgba(23,43,77,0.03); }
+.card { border-radius: 12px; }
+.form-control { border-radius: 8px; }
+.btn { border-radius: 8px; }
+#invoice-preview h4 { color: var(--primary); }
+@media print {
+  .no-print { display: none !important; }
+  body * { visibility: hidden; }
+  #invoice-preview, #invoice-preview * { visibility: visible; }
+  #invoice-preview { position: absolute; left: 0; top: 0; width: 100%; }
+}

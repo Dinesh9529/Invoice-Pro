@@ -1,0 +1,9 @@
+admin-style.css
+
+body { background:#f5f7fb; font-family:Poppins, Arial, sans-serif; color:#222; }
+.card { border-radius:10px; box-shadow:0 6px 18px rgba(23,43,77,0.04); }
+h5 { color:#0b5ed7; }
+#gen-result pre { background:#0d1220; color:#bfe7c6; padding:8px; border-radius:8px; }
+.key-row { border-bottom:1px solid #eef2f7; padding:8px 6px; }
+.key-row .meta { font-size:0.85rem; color:#6c757d; }
+.btn { border-radius:8px; }
