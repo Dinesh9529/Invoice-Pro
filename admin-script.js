@@ -1,7 +1,7 @@
 admin-script.js
 
 // admin-script.js
-const RENDER_URL = "https://dukan-pro.onrender.com";
+const RENDER_URL = "https://invoice-pro-v22t.onrender.com";
 const generateBtn = document.getElementById('btn-gen');
 const refreshBtn = document.getElementById('btn-refresh');
 const keysList = document.getElementById('keys-list');
@@ -87,4 +87,5 @@ exportBtn.addEventListener('click', ()=> {
 })();
 
 filterInput.addEventListener('input', ()=> refreshKeys());
+
 window.addEventListener('DOMContentLoaded', ()=> refreshKeys());
