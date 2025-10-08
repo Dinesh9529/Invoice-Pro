@@ -1,24 +1,28 @@
-Package json 
-
 {
-  "name": "dukaan-pro-server",
+  "name": "dukaan-pro",
   "version": "1.0.0",
-  "description": "Dukaan Pro backend for license & invoice logging",
-  "type": "module",
+  "description": "Dukaan Pro - Smart Invoice Generator with License Validation",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "googleapis": "^131.0.0"
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+  "engines": {
+    "node": ">=18"
   },
-  "engines": { "node": ">=18" },
-  "license": "MIT",
-  "author": "Dinesh Kumar"
+  "keywords": [
+    "invoice",
+    "billing",
+    "dukaan-pro",
+    "license-key"
+  ],
+  "author": "Dinesh Kumar",
+  "license": "MIT"
 }
