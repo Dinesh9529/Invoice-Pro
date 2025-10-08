@@ -1,7 +1,7 @@
 app-script.js
 
 // app-script.js
-const RENDER_URL = "https://dukan-pro.onrender.com"; // Change to your deployed server
+const RENDER_URL = "https://invoice-pro-v22t.onrender.com"; // Change to your deployed server
 const API_VALIDATE = `${RENDER_URL}/validate-key`;
 const API_LOG = `${RENDER_URL}/log-invoice`;
 
@@ -156,4 +156,5 @@ document.addEventListener('DOMContentLoaded', ()=>{
     showStatus('Cached license active', false);
     openApp();
   }
+
 });
